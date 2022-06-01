@@ -1,0 +1,100 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+}
+
+header {
+	height: 10vh;
+	box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+}
+
+nav {
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+nav a {
+	font-size: 1.2rem;
+	text-decoration: none;
+	color: #000000;
+}
+
+nav a.selected {
+	text-decoration: underline;
+}
+
+main {
+	width: 100%;
+	min-height: 90vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+main.home > div {
+	width: 50%;
+	height: 90vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+main.home > div.datos {
+	margin-top: 32px;
+}
+
+
+main.home > div ul {
+	margin-top: 32px;
+}
+
+main.smylpy {
+	background-image: url(./background.jpeg);
+	background-size: cover;
+}
+
+main img {
+	width: 480px;
+	height: auto;
+}
+
+main.refresco > div {
+	width: 50%;
+	height: 90vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+main.refresco > div.logo-image h2 {
+	font-size: 4rem;
+	font-weight: 400;
+  line-height: 1;
+	font-family: "Vibur", sans-serif;
+}
+
+main.refresco > div.logo-image h2 span {
+	display: block;
+	font-family: "Vibur", sans-serif;
+}
+
+main.refresco > div.logo-image img {
+	width: 240px;
+	height: auto;
+}
+
+main.refresco > div.cover-image img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+main.video video {
+	width: 80%;
+	height: auto;
+}
